@@ -1,0 +1,24 @@
+{
+  "name": "code-class-pipeline-operator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "exercise-1": "babel exercise-1.js --out-file output.js && node output.js",
+    "exercise-2": "babel exercise-2.js --out-file output.js && node output.js",
+    "answer-1": "babel exercise-2-answer.js --out-file output.js && node output.js",
+    "answer-2": "babel exercise-2-answer.js --out-file output.js && node output.js"
+	},
+	"private": true,
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.1.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+    "@babel/plugin-proposal-optional-chaining": "^7.0.0",
+    "@babel/plugin-proposal-pipeline-operator": "^7.0.0"
+  }
+}
